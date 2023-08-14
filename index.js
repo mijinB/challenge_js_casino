@@ -5,8 +5,8 @@ const hiddenDiv = document.querySelector("#hidden-div");
 const hiddenFirstText = hiddenDiv.firstElementChild;
 const hiddenSecondText = hiddenDiv.lastElementChild;
 
-let endNum = "";
-let chooseNum = "";
+let endNum;
+let chooseNum;
 
 const onEndNumChange = (event) => {
   endNumInput.value = event.target.value.replace("-", "");
