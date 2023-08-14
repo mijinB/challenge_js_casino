@@ -1,0 +1,12 @@
+.bold {
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.choose-div {
+  margin-bottom: 20px;
+}
+
+.hiden {
+  display: none;
+}
